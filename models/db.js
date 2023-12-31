@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 
 
-mongoose.connect('mongodb+srv://jbolibenga:21.24jbw@apijs.g1nmvt8.mongodb.net/Task')
+mongoose.connect('make your strig key for to connect with mongodb ')
    .then(()=> console.log('nous sommes connecter avec mongodb !'))
    .catch(()=>console.log("echec de la connexion avec mongodb !"))
 
